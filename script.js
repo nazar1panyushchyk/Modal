@@ -1,4 +1,4 @@
-const contact = document.querySelector('Contacts')
+const contact = document.querySelector('.Contacts')
 // console.log(contact);
 
 contact.addEventListener('click', function() {
