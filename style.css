@@ -18,7 +18,7 @@ header {
 nav a {
     margin: 0 0 0 77px;
     color: #212121;
-    font-family: 'Roboto', sans-serif;
+    font-family: Roboto;
     font-size: 14px;
     font-style: normal;
     font-weight: 500;
@@ -42,7 +42,7 @@ h1 {
     width: 696px;
     color: #FFF;
     text-align: center;
-    font-family: 'Roboto', sans-serif;
+    font-family: Roboto;
     font-size: 44px;
     font-style: normal;
     font-weight: 900;
@@ -52,8 +52,34 @@ h1 {
 }
 
 .modal {
+    display: none;
     width: 528px;
     background-color: white;
+}
+
+.cross {
+    content: "";
+    position: relative;
+    top: 0;
+    width: 2px;
+    height: 15px;
+    background-color: black;
+    transform: translate(508px, 4px) rotate(45deg);
+}
+
+.cross::after {
+    content: "";
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    width: 2px;
+    height: 15px;
+    background-color: black;
+    transform: translate(0px, 1px) rotate(93deg);
+}
+
+.active {
+    display: block;
 }
 
 .cards {
@@ -103,7 +129,7 @@ h2 {
     padding-top: 100px;
     width: 270px;
     color: #212121;
-    font-family: 'Roboto', sans-serif;
+    font-family: Roboto;
     font-size: 14px;
     font-style: normal;
     font-weight: 700;
@@ -155,9 +181,9 @@ form {
 
 label {
     display: grid;
-    margin: 10px 29px 0;
+    justify-content: center;
     color: #757575;
-    font-family: 'Roboto', sans-serif;
+    font-family: Roboto;
     font-size: 12px;
     font-style: normal;
     font-weight: 400;
@@ -166,12 +192,13 @@ label {
 input {
     width: 448px;
     height: 40px;
+    border-radius: 4px;
 }
 
 textarea {
-    margin: 9px 2px 0;
     width: 448px;
     height: 120px;
+    border-radius: 4px;
 }
 
 .image {
@@ -183,7 +210,7 @@ h3 {
     text-align: center;
     color: #212121;
     text-align: center;
-    font-family: 'Roboto', sans-serif;
+    font-family: Roboto;
     font-size: 20px;
     font-weight: 700;
 }
@@ -196,17 +223,55 @@ button {
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
     color: #FFF;
     text-align: center;
-    font-family: 'Roboto', sans-serif;
+    font-family: Roboto;
     font-size: 16px;
     font-weight: 700;
+    cursor: pointer;
 }
 
 .button {
     display: flex;
     justify-content: center;
-    padding-top: 30px;
+    padding: 30px 0 20px 0;
+}
+
+.name {
+    background-image: url('./img/person-black-18dp1.svg');
+    background-repeat: no-repeat;
+    background-position: 11px 12px;
+}
+
+.phone {
+    background-image: url('./img/phone-black-18dp1.svg');
+    background-repeat: no-repeat;
+    background-position: 11px 12px;
+}
+
+.email {
+    background-image: url('./img/email-black-18dp1.svg');
+    background-repeat: no-repeat;
+    background-position: 11px 12px;
+}
+
+.conditions {
+    color: #2196F3;
+    text-decoration: underline;
+}
+
+.name:focus,
+.phone:focus,
+.email:focus {
+    background-image: none;
+    border-radius: 2px;
+    border: 1px solid black;
 }
 
 .contract {
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin: 15px;
+}
+
+.cont {
+    margin: 0 8px 0;
 }
