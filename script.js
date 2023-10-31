@@ -1,6 +1,13 @@
-const contact = document.querySelector('.Contacts')
+const contact = document.querySelector('.Contacts');
 // console.log(contact);
+const modal = document.querySelector('.modal');
+const cross = document.querySelector('.cross');
+console.log(cross);
 
 contact.addEventListener('click', function() {
-    console.log('hello');
-})          
+    modal.classList.add('active')
+})
+
+cross.addEventListener('click', function() {
+    modal.classList.remove('active')
+})
