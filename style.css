@@ -80,12 +80,15 @@ h1 {
 
 .active {
     display: block;
+    margin: 0 auto;
 }
 
 .cards {
     display: flex;
     justify-content: space-evenly;
     padding-top: 70px;
+    flex-wrap: wrap;
+    max-width: 80%;
 }
 
 .card1::before {
@@ -173,6 +176,17 @@ h2 {
 .card4 {
     background: #F5F4FA;
     text-align: center;
+}
+
+.text {
+    padding-top: 42px;
+    width: 270px;
+    height: 72px;
+    color: #757575;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
 }
 
 form {
