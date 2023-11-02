@@ -85,3 +85,148 @@ button {
     border: 1px;
     background: #F5F4FA;
 }
+
+.cards {
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    padding: 40px 0 94px 0;
+}
+
+.card h2 {
+    color: #212121;
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.card p {
+    color: #757575;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.text {
+    border: 1px solid #EEE;
+    padding: 20px;
+}
+
+.card {
+    padding-bottom: 40px;
+}
+
+.card .image {
+    position: relative;
+    overflow: hidden;
+}
+
+.card .image:hover::after {
+    content: "Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.";
+    position: absolute;
+    width: 322px;
+    height: 100%;
+    background: rgba(33, 150, 243, 0.90);
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding: 24px 35px;
+    opacity: 1;
+}
+
+.card .image img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+footer {
+    background: #2F303A;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 45px;
+}
+
+.card-p {
+    padding-top: 10px;
+}
+
+.address {
+    width: 231px;
+    height: 21px;
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.info {
+    width: 231px;
+    height: 21px;
+    color: rgba(255, 255, 255, 0.60);
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.footer-center p, .footer-right p {
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.form-button {
+    display: flex;
+}
+
+input {
+    background-color: #2F303A;
+    border-radius: 4px;
+    border: 1px solid rgba(255, 255, 255, 0.30);
+    width: 358px;
+    height: 50px;
+    color: rgba(255, 255, 255, 0.60);
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.subscribe {
+    background: #2196F3;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    width: 200px;
+    height: 50px;
+    color: #FFF;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.information {
+    padding-top: 20px;
+}
+
+.web {
+    padding-top: 20px;
+}
