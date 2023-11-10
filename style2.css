@@ -122,12 +122,12 @@ button {
     padding-bottom: 40px;
 }
 
-.cards_card .image {
+.cards_card .cards_image {
     position: relative;
     overflow: hidden;
 }
 
-.cards_card .image:hover::after {
+.cards_card .cards_image:hover::after {
     content: "Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.";
     position: absolute;
     width: 322px;
