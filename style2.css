@@ -28,6 +28,10 @@ nav a {
     text-decoration: none;
 }
 
+.headers_portfo {
+    color: #2196F3;;
+}
+
 .buttons {
     display: flex;
     justify-content: center;
@@ -39,7 +43,7 @@ button {
     cursor: pointer;
 }
 
-.button-all {
+.buttons_all {
     width: 73px;
     height: 38px;
     border: 1px;
@@ -52,30 +56,30 @@ button {
     background: #2196F3;
 }
 
-.button-site {
+.buttons_site {
     width: 125px;
     height: 38px;
 }
 
-.button-addition {
+.buttons_addition {
     width: 112px;
     height: 38px;
 }
 
-.button-design {
+.buttons_design {
     width: 103px;
     height: 38px;
 }
 
-.button-market {
+.buttons_market {
     width: 130px;
     height: 38px;
 }
 
-.button-site,
-.button-addition,
-.button-design,
-.button-market {
+.buttons_site,
+.buttons_addition,
+.buttons_design,
+.buttons_market {
     color: #212121;
     font-family: Roboto;
     font-size: 16px;
@@ -93,7 +97,7 @@ button {
     padding: 40px 0 94px 0;
 }
 
-.card h2 {
+.cards_card h2 {
     color: #212121;
     font-family: Roboto;
     font-size: 18px;
@@ -101,7 +105,7 @@ button {
     font-weight: 700;
 }
 
-.card p {
+.cards_card p {
     color: #757575;
     font-family: Roboto;
     font-size: 16px;
@@ -109,21 +113,21 @@ button {
     font-weight: 400;
 }
 
-.text {
+.cards_text {
     border: 1px solid #EEE;
     padding: 20px;
 }
 
-.card {
+.cards_card {
     padding-bottom: 40px;
 }
 
-.card .image {
+.cards_card .image {
     position: relative;
     overflow: hidden;
 }
 
-.card .image:hover::after {
+.cards_card .image:hover::after {
     content: "Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.";
     position: absolute;
     width: 322px;
@@ -143,7 +147,7 @@ button {
     opacity: 1;
 }
 
-.card .image img {
+.cards_card .cards_image img {
     width: 100%;
     height: auto;
     display: block;
@@ -157,13 +161,14 @@ footer {
     display: flex;
     justify-content: space-evenly;
     padding-top: 45px;
+    height: 180px;
 }
 
-.card-p {
+.cards_p {
     padding-top: 10px;
 }
 
-.address {
+.footer_address {
     width: 231px;
     height: 21px;
     color: #FFF;
@@ -173,7 +178,7 @@ footer {
     font-weight: 400;
 }
 
-.info {
+.footer_info {
     width: 231px;
     height: 21px;
     color: rgba(255, 255, 255, 0.60);
@@ -183,7 +188,7 @@ footer {
     font-weight: 400;
 }
 
-.footer-center p, .footer-right p {
+.footer_center p, .footer_right p {
     color: #FFF;
     font-family: Roboto;
     font-size: 14px;
@@ -192,8 +197,9 @@ footer {
     text-transform: uppercase;
 }
 
-.form-button {
+.form_button {
     display: flex;
+    padding-top: 20px;
 }
 
 input {
@@ -209,7 +215,7 @@ input {
     font-weight: 400;
 }
 
-.subscribe {
+.footer_subscribe {
     background: #2196F3;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
@@ -223,10 +229,10 @@ input {
     font-weight: 700;
 }
 
-.information {
+.footer_information {
     padding-top: 20px;
 }
 
-.web {
-    padding-top: 20px;
+.footer_web {
+    padding-top: 32px;
 }
