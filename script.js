@@ -1,7 +1,7 @@
 const contact = document.querySelector('.Contacts');
 // console.log(contact);
-const modal = document.querySelector('.modal');
-const cross = document.querySelector('.cross');
+const modal = document.querySelector('.container_modal');
+const cross = document.querySelector('.container_cross');
 console.log(cross);
 
 contact.addEventListener('click', function() {
