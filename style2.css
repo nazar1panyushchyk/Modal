@@ -216,6 +216,9 @@ input {
 }
 
 .footer_subscribe {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     background: #2196F3;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
@@ -229,6 +232,10 @@ input {
     font-weight: 700;
 }
 
+.footer_telegram {
+    margin-left: 5px;
+}
+
 .footer_information {
     padding-top: 20px;
 }
@@ -236,3 +243,4 @@ input {
 .footer_web {
     padding-top: 32px;
 }
+
