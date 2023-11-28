@@ -1,3 +1,5 @@
+@import './scss/mixins.scss'
+
 * {
     margin: 0;
     padding: 0;
@@ -7,7 +9,7 @@
 header {
     background-image: url('./img/topline.png');
     background-size: cover;
-    border: 2px solid #ECECEC;;
+    border: 2px solid #ECECEC;
 }
 
 .headers {
@@ -32,7 +34,7 @@ nav a {
     color: #2196F3;;
 }
 
-.buttons {
+.buttons_mixins {
     display: flex;
     justify-content: center;
     padding-top: 94px;
@@ -43,8 +45,7 @@ button {
     cursor: pointer;
 }
 
-.buttons_all {
-    width: 73px;
+.buttons_all_mixins {
     height: 38px;
     border: 1px;
     border-radius: 4px;
