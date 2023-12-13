@@ -1,7 +1,0 @@
-@mixin width($size) {
-    width: $size;
-}
-
-.button_all_mixins {
-    @include width(73px);
-}
