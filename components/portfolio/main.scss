@@ -1,5 +1,11 @@
 @import '../portfolio/style';
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 header {
     background-image: url('/img/topline.png');
     background-size: cover;
@@ -37,6 +43,7 @@ nav {
 }
 
 .buttons_all_mixins {
+    @include width(73px);
     height: 38px;
     border: 1px;
     border-radius: 4px;
@@ -268,11 +275,11 @@ input {
 }
 
 .footer_telegram {
-        margin-left: 5px;
+    margin-left: 5px;
 }
 
 .footer_information {
-        padding-top: 20px;
+    padding-top: 20px;
 }
 
 .footer_web {
