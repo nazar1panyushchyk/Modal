@@ -91,7 +91,7 @@ button {
 
 .cards {
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
   padding: 40px 0 94px 0;
 }
 

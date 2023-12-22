@@ -31,16 +31,19 @@ nav a {
 nav a .headers_portfo {
   color: #2196F3;
 }
-nav a .buttons_mixins {
+
+.buttons_mixins {
   display: flex;
   justify-content: center;
   padding-top: 94px;
 }
-nav a button {
+
+button {
   margin: 0px 3px 0 8px;
   cursor: pointer;
 }
-nav a .buttons_all_mixins {
+
+.buttons_all_mixins {
   height: 38px;
   border: 1px;
   border-radius: 4px;
@@ -51,26 +54,31 @@ nav a .buttons_all_mixins {
   font-weight: 500;
   background: #2196F3;
 }
-nav a .buttons_site {
+
+.buttons_site {
   width: 125px;
   height: 38px;
 }
-nav a .buttons_addition {
+
+.buttons_addition {
   width: 112px;
   height: 38px;
 }
-nav a .buttons_design {
+
+.buttons_design {
   width: 103px;
   height: 38px;
 }
-nav a .buttons_market {
+
+.buttons_market {
   width: 130px;
   height: 38px;
 }
-nav a .buttons_site,
-nav a .buttons_addition,
-nav a .buttons_design,
-nav a .buttons_market {
+
+.buttons_site,
+.buttons_addition,
+.buttons_design,
+.buttons_market {
   color: #212121;
   font-family: Roboto;
   font-size: 16px;
@@ -80,38 +88,44 @@ nav a .buttons_market {
   border: 1px;
   background: #F5F4FA;
 }
-nav a .cards {
+
+.cards {
   display: flex;
-  justify-content: center;
   justify-content: space-evenly;
   padding: 40px 0 94px 0;
 }
-nav a .cards_card h2 {
+
+.cards_card h2 {
   color: #212121;
   font-family: Roboto;
   font-size: 18px;
   font-style: normal;
   font-weight: 700;
 }
-nav a .cards_card p {
+
+.cards_card p {
   color: #757575;
   font-family: Roboto;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
 }
-nav a .cards_text {
+
+.cards_text {
   border: 1px solid #EEE;
   padding: 20px;
 }
-nav a .cards_card {
+
+.cards_card {
   padding-bottom: 40px;
 }
-nav a .cards_card .cards_image {
+
+.cards_card .cards_image {
   position: relative;
   overflow: hidden;
 }
-nav a .cards_card .cards_image:hover::after {
+
+.cards_card .cards_image:hover::after {
   content: "Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.";
   position: absolute;
   width: 322px;
@@ -130,24 +144,29 @@ nav a .cards_card .cards_image:hover::after {
   padding: 24px 35px;
   opacity: 1;
 }
-nav a .cards_card .cards_image img {
+
+.cards_card .cards_image img {
   width: 100%;
   height: auto;
   display: block;
 }
-nav a footer {
+
+footer {
   background: #2F303A;
 }
-nav a .footer {
+
+.footer {
   display: flex;
   justify-content: space-evenly;
   padding-top: 45px;
   height: 180px;
 }
-nav a .cards_p {
+
+.cards_p {
   padding-top: 10px;
 }
-nav a .footer_address {
+
+.footer_address {
   width: 231px;
   height: 21px;
   color: #FFF;
@@ -156,7 +175,8 @@ nav a .footer_address {
   font-style: normal;
   font-weight: 400;
 }
-nav a .footer_info {
+
+.footer_info {
   width: 231px;
   height: 21px;
   color: rgba(255, 255, 255, 0.6);
@@ -165,7 +185,8 @@ nav a .footer_info {
   font-style: normal;
   font-weight: 400;
 }
-nav a .footer_center p, nav a .footer_right p {
+
+.footer_center p, .footer_right p {
   color: #FFF;
   font-family: Roboto;
   font-size: 14px;
@@ -173,11 +194,13 @@ nav a .footer_center p, nav a .footer_right p {
   font-weight: 700;
   text-transform: uppercase;
 }
-nav a .form_button {
+
+.form_button {
   display: flex;
   padding-top: 20px;
 }
-nav a input {
+
+input {
   background-color: #2F303A;
   border-radius: 4px;
   border: 1px solid rgba(255, 255, 255, 0.3);
@@ -189,7 +212,8 @@ nav a input {
   font-style: normal;
   font-weight: 400;
 }
-nav a .footer_subscribe {
+
+.footer_subscribe {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -205,16 +229,15 @@ nav a .footer_subscribe {
   font-style: normal;
   font-weight: 700;
 }
-nav a .footer_telegram {
+
+.footer_telegram {
   margin-left: 5px;
 }
-nav a .footer_information {
+
+.footer_information {
   padding-top: 20px;
 }
-nav a .footer_web {
-  padding-top: 32px;
-}
 
-body {
-  background-color: red;
+.footer_web {
+  padding-top: 32px;
 }/*# sourceMappingURL=main.css.map */
