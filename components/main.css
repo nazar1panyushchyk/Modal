@@ -44,6 +44,7 @@ button {
 }
 
 .buttons_all_mixins {
+  width: 72px;
   height: 38px;
   border: 1px;
   border-radius: 4px;
@@ -128,7 +129,7 @@ button {
 .cards_card .cards_image:hover::after {
   content: "Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.";
   position: absolute;
-  width: 322px;
+  width: 380px;
   height: 100%;
   background: rgba(33, 150, 243, 0.9);
   color: #FFF;

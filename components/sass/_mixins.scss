@@ -1,0 +1,12 @@
+@mixin flex($flex, $justify) {
+    display: $flex;
+    justify-content: $justify;
+}
+
+@mixin width($size) {
+    width: $size;
+}
+
+@mixin height($size) {
+    height: $size;
+}
