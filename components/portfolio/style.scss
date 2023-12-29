@@ -13,7 +13,8 @@ header {
 }
   
 .headers {
-  @include flex(flex, space-evenly);
+  @include flex(flex);
+  @include justify(space-evenly);
   margin: 32px 0 30px 0;
 }
   
@@ -34,7 +35,8 @@ nav a {
 }
 
 .buttons_mixins {
-  @include flex(flex, center);
+  @include flex(flex);
+  @include justify(center);
   padding-top: 94px;
 }
   
@@ -91,7 +93,8 @@ button {
 }
 
 .cards {
-  @include flex(flex, space-evenly);
+  @include flex(flex);
+  @include justify(space-evenly);
   padding: 40px 0 94px 0;
 }
   
@@ -156,7 +159,8 @@ footer {
 }
   
 .footer {
-  @include flex(flex, space-evenly);
+  @include flex(flex);
+  @include justify(space-evenly);
   padding-top: 45px;
   @include height(180px);
 }
@@ -213,7 +217,8 @@ input {
 }
   
 .footer_subscribe {
-  @include flex(flex, center);
+  @include flex(flex);
+  @include justify(center);
   align-items: center;
   background: #2196F3;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
